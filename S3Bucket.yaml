@@ -1,0 +1,13 @@
+Resources:
+ MyS3Bucket:
+  Type: AWS::S3::Bucket
+  Properties:
+   BucketName: intellipaat-umang
+   VersioningConfiguration:
+    Status: Enabled
+   Tags:
+    Key: Name
+    Value: S3Bucket
+
+ 
+    
