@@ -4,7 +4,7 @@ Resources:
   Properties:
    BucketName: intellipaat-umang
    VersioningConfiguration:
-    Status: Enabled
+    Status: Disabled
    Tags:
     Key: Name
     Value: S3Bucket
